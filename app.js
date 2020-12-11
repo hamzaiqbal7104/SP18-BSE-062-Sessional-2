@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-mongoose.connect("mongodb+srv://hamzaiqbal714@course.afznt.mongodb.net/<dbname>?retryWrites=true&w=majority",{ useNewUrlParser: true ,useUnifiedTopology: true }).then(()=>console.log("connected to Mongo..")).catch((err)=>console.log(err));
+mongoose.connect("mongodb+srv://hamzaiqbal7104@course.afznt.mongodb.net/<dbname>?retryWrites=true&w=majority",{ useNewUrlParser: true ,useUnifiedTopology: true }).then(()=>console.log("connected to Mongo..")).catch((err)=>console.log(err));
 
 module.exports = app;
